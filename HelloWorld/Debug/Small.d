@@ -1,0 +1,1 @@
+Small.o: ../Small.cpp
