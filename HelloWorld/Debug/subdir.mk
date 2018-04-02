@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../ClassesAndObjects.cpp \
-../Person.cpp 
+../Person.cpp \
+../Tweeter.cpp 
 
 OBJS += \
 ./ClassesAndObjects.o \
-./Person.o 
+./Person.o \
+./Tweeter.o 
 
 CPP_DEPS += \
 ./ClassesAndObjects.d \
-./Person.d 
+./Person.d \
+./Tweeter.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
